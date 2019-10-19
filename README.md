@@ -6,7 +6,7 @@ CPU: Core-i5(x86_64)<br>
 OS: Windows Subsystem for Linux(Ubuntu18.04 LTS)
 
 ## Reference
-作って理解するOS x86系コンピュータを動かす理論と実践
+作って理解するOS x86系コンピュータを動かす理論と実践<br>
 <https://gihyo.jp/book/2019/978-4-297-10847-2>
 
 ## install
@@ -15,3 +15,11 @@ OS: Windows Subsystem for Linux(Ubuntu18.04 LTS)
 apt install nasm
 ```
 
+### 2. bochs
+```
+git submodule init
+git submodule update
+cd bochs/bochs
+./configure
+make
+```
