@@ -42,3 +42,9 @@ cd bochs/bochs
 ./configure
 make
 ```
+
+### 4. bochs run setting
+use .bochsrc (if error, comment out error line)<br>
+```
+source env.sh
+```
